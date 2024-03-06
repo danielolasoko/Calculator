@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="display" disabled aria-live="polite">
+        <div class="buttons">
+            <button aria-label="7" onclick="addToDisplay('7')">7</button>
+            <button aria-label="8" onclick="addToDisplay('8')">8</button>
+            <button aria-label="9" onclick="addToDisplay('9')">9</button>
+            <button aria-label="Addition" onclick="addToDisplay('+')" class="operator">+</button>
+            <button aria-label="4" onclick="addToDisplay('4')">4</button>
+            <button aria-label="5" onclick="addToDisplay('5')">5</button>
+            <button aria-label="6" onclick="addToDisplay('6')">6</button>
+            <button aria-label="Subtraction" onclick="addToDisplay('-')" class="operator">-</button>
+            <button aria-label="1" onclick="addToDisplay('1')">1</button>
+            <button aria-label="2" onclick="addToDisplay('2')">2</button>
+            <button aria-label="3" onclick="addToDisplay('3')">3</button>
+            <button aria-label="Multiplication" onclick="addToDisplay('*')" class="operator">×</button>
+            <button aria-label="0" onclick="addToDisplay('0')">0</button>
+            <button aria-label="Decimal" onclick="addToDisplay('.')">.</button>
+            <button aria-label="Equal" onclick="calculate()" class="equal">=</button>
+            <button aria-label="Division" onclick="addToDisplay('/')" class="operator">÷</button>
+            <button aria-label="Clear" onclick="clearDisplay()" class="clear">C</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
