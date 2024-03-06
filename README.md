@@ -22,14 +22,8 @@ To perform a calculation, enter the expression and press the "=" button or press
 
 The "Fun Calculator" is designed with accessibility in mind, with semantic HTML elements and appropriate aria attributes to ensure it is usable for everyone, including users with disabilities.
 
-## Demo
-
-You can try out the "Fun Calculator" [here](#).
 
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, feature requests, or find any issues, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
